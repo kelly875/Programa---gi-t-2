@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #71230b3b;
+}
+
+/* --seccion nav-- */
+
+.nav{
+    margin-bottom: 20px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #71230b;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: dotted;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.nav-link:hover {
+    background-color: #faf6f42b;
+}
+
+.bottom-sign-in {
+    border: 2px solid white;
+    transition: background-color 0.5s;
+    
+}
+
+.bottom-sign-in:hover {
+    color: #71230b;
+    background-color: white;
+}
+
+/* --seccion hero-- */
+
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.container-hero {
+    background-color:#71230be2 ;
+    width: 80%;
+    height: 50%;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.link-hero {
+    text-decoration: none;
+    background-color: #71230b;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
+.link-hero:hover {
+    background-color: white;
+    color: #71230b;
+}
+
+.container-hero > h2 {
+    font-size: 40px;
+    
+}
+
+.container-hero > p {
+    text-align: center;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+/* --seccion articulos destacados-- */
+
+.productos-destacados {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.section > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    max-width: 400px;
+}
+
+.container-productos-destacados {
+    text-align: center;
+}
+
+/* --seccion footer-- */
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    background-color: #71230b;
+}
+
+
+.ul-footer {
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.item-ul {
+    margin: 10px;
+}
+
+.item-ul:first-child{
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}

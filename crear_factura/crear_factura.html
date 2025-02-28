@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Factura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container-nav">
+            <ul class="nav-ul">
+                <li class="nav-item"><a href="/home/home.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/inventario/inventario.html" class="nav-link">Inventario</a></li>
+                <li class="nav-item"><a href="/empleados/empleados.html" class="nav-link">Empleados</a></li>
+                <li class="nav-item"><a href="/nomina/nomina.html" class="nav-link">Nomina</a></li>
+                <li class="nav-item"><a href="/crear_factura/crear_factura.html" class="nav-link">Facturas</a></li>
+                <li class="nav-item"><a href="/sign-in/sign-in.html" class="nav-link bottom-sign-in">sign in</a></li>
+            </ul>
+        </div>
+    </nav>
+    <form class="form" action="">
+        <h1>Crear factura</h1>
+        <!-- informacion basica -->
+        <div class="container">
+            <fieldset>
+                <legend>Informacion Basica</legend>
+                <div class="container-informacion-basica">
+                    <!-- fecha de la factura -->
+                    <label for="fecha">Fecha</label>
+                    <input class="form-input" type="date" required id="fecha" name="fecha">
+                    <!-- nombre del cliente -->
+                    <label for="nombre_completo">Nombre</label>
+                    <input class="form-input" type="text" placeholder="Nombre Completo" required id="nombre_completo" name="nombre_completo">
+                    <!-- numero de identidad del cliente -->
+                    <label for="numero_de_identidad">Numero de identidad</label>
+                    <input class="form-input" type="text" placeholder="Numero de Identidad" required id="numero_de_identidad" name="numero_de_identidad">
+                    <!-- direccion del cliente -->
+                    <label for="direccion">Direccion</label>
+                    <input class="form-input" type="text" placeholder="Direccion" required id="direccion" name="direccion">
+                    <label for="email">Email</label>
+                    <input class="form-input" type="email" name="email" id="email" placeholder="Email">
+                </div>
+            </fieldset>
+            
+            <!-- articulos para llevar -->
+            
+            <fieldset>
+                <legend>Lista de Articulos</legend>
+                <div class="container-articulos">
+                    <!-- descripcion del articulo -->
+                    <label for="descripcion">Descripcion</label>
+                    <input class="form-input" type="text" id="descripcion" name="descripcion" placeholder="Descripcion del Articulo">
+                    <!-- cantidad del articulo -->
+                    <label for="cantidad">Cantidad</label>
+                    <input class="form-input" type="number" name="cantidad" id="cantidad" placeholder="Cantidad">
+                    <!-- precio del articulo -->
+                    <label for="precio">Precio</label>
+                    <input class="form-input" type="number" name="precio" placeholder="Precio" id="precio" required>
+                    <!-- valor del articulo por la cantidad -->
+                    <label for="valor">Valor</label>
+                    <input class="form-input" type="number" name="valor" id="valor">
+                </div>
+                <div class="valor-total">
+                    <!-- valor total de la factura -->
+                    <label for="valor-total">Valor Total</label>
+                    <input class="form-input" type="number" name="valor-total" id="valor-total" placeholder="valor total">
+                    <button class="button" type="submit">Guadar Factura</button>
+                    <button class="button button-lista-facturas" type="submit">Lista de Facturas</button>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+    <footer class="footer">
+        <div class="container-footer">
+            <ul class="ul-footer">
+                <li class="item-ul"><a href="" class="link-footer">Compañia</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Nosotros</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Nuestros servicios</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Politica y privacidad</a></li>
+            </ul>
+        </div>
+        <div class="container-footer">
+            <ul class="ul-footer">
+                <li class="item-ul"><a href="" class="link-footer">Ayuda</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Preguntas</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Compras</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Envios</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Pago</a></li>
+            </ul>
+        </div>
+        <div class="container-footer"> 
+            <ul class="ul-footer">
+                <li class="item-ul"><a href="" class="link-footer">Tienda</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Muebles</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Camas</a></li>
+                <li class="item-ul"><a href="" class="link-footer">Salas</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

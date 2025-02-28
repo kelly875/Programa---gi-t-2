@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navegación */
+/* --seccion nav-- */
+
+.nav{
+    margin-bottom: 20px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #71230b;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: dotted;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.nav-link:hover {
+    background-color: #faf6f42b;
+}
+
+.bottom-sign-in {
+    border: 2px solid white;
+    transition: background-color 0.5s;
+    
+}
+
+.bottom-sign-in:hover {
+    color: #71230b;
+    background-color: white;
+}
+
+
+/* Sección de nómina */
+.nomina {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.nomina h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.nomina .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color:#71230b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color:#ffffff;
+    color: #71230b;
+    border: 2px solid #71230b ;
+}
+
+/* Tabla de nómina */
+.payroll-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.payroll-table th, .payroll-table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.payroll-table th {
+    background-color:#71230b;
+    color: #fff;
+}
+
+.payroll-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.payroll-table td a {
+    color:#71230b;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.details-btn:hover, .edit-btn:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    background-color: #71230b;
+}
+
+
+.ul-footer {
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.item-ul {
+    margin: 10px;
+}
+
+.item-ul:first-child{
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}

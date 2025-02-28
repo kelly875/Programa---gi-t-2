@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* --seccion nav-- */
+
+.nav{
+    margin-bottom: 20px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #71230b;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: dotted;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.nav-link:hover {
+    background-color: #faf6f42b;
+}
+
+.bottom-sign-in {
+    border: 2px solid white;
+    transition: background-color 0.5s;
+    
+}
+
+.bottom-sign-in:hover {
+    color: #71230b;
+    background-color: white;
+}
+
+
+/* seccion table */
+
+h2 {
+    text-align: center;
+}
+
+.btn-agregar-articulo {
+    text-decoration: none;
+    padding: 7px;
+    background-color:#71230b ;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    justify-content: center;
+}
+
+.btn-agregar-articulo:hover {
+    background-color: white;
+    color: #71230b;
+    border: 2px solid #71230b;
+}
+
+.container-table {
+    display: flex;
+    flex-flow: column wrap;
+    height: 70vh;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+
+.container-btn-agregar-articulo {
+    margin-bottom: 20px;
+}
+
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding:20px;
+}
+
+tr:first-child {
+    font-weight: bold;
+    background-color: #71230b;
+    color: white;
+}
+
+.btn-acciones {
+    color: #71230b;
+    text-decoration: none;
+}
+
+.btn-acciones:hover {
+    text-decoration: underline;
+}
+
+/* --seccion footer-- */
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    background-color: #71230b;
+}
+
+
+.ul-footer {
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.item-ul {
+    margin: 10px;
+}
+
+.item-ul:first-child{
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    
+}
